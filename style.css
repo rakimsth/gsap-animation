@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+
+body {
+  margin: 0;
+  font-family: 'Arapey';
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 30%;
+}
+section {
+  padding: 3em;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#education{
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 160px;
+  border-radius: 5px;
+}
+#writing {
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 490px;
+}
+
+#writingabtedu {
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 920px;
+}
+
+section:nth-child(odd) {
+  background: #f1f1f1;
+}
+.sticky {
+  background: white !important;
+  display: flex;
+}
+
+.percentage {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 5px solid lightgray;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/*Start of the overlap animation*/
+.rectangle1 {
+  background-color: #AAE0F9;
+  height: 400px;
+  width: 700px;
+  margin-left: 150px;
+  position: absolute;
+  border-radius: 3px;
+}
+
+.rectangle2 {
+  background-color: #FED77D;
+  height: 400px;
+  width: 700px;
+  position: absolute;
+  margin: 180px 0 0 450px;
+  border-radius: 3px;
+  mix-blend-mode: darken;
+}
+
+.eduText{
+  margin: 40px;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.writingAbtText {
+  margin: 70px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+}
+
+.writingText {
+  margin: 350px 0 0 550px;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic;
+  position: absolute;
+}
+/*End of the overlap animation*/
