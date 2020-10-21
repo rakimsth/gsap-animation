@@ -17,26 +17,6 @@ section {
   display: flex;
 }
 
-#education{
-  position: absolute;
-  margin-top: 110px;
-  margin-left: 160px;
-  border-radius: 5px;
-}
-#writing {
-  border-radius: 5px;
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 490px;
-}
-
-#writingabtedu {
-  border-radius: 5px;
-  position: absolute;
-  margin-top: 320px;
-  margin-left: 920px;
-}
-
 section:nth-child(odd) {
   background: #f1f1f1;
 }
@@ -63,7 +43,7 @@ section:nth-child(odd) {
 /*Start of the overlap animation*/
 .rectangle1 {
   background-color: #AAE0F9;
-  height: 400px;
+  height: 380px;
   width: 700px;
   margin-left: 150px;
   position: absolute;
@@ -72,35 +52,80 @@ section:nth-child(odd) {
 
 .rectangle2 {
   background-color: #FED77D;
-  height: 400px;
+  height: 380px;
   width: 700px;
   position: absolute;
-  margin: 180px 0 0 450px;
+  margin: 140px 0 0 450px;
   border-radius: 3px;
   mix-blend-mode: darken;
 }
 
+/*Education Components*/
+
+#education {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 190px;
+  border-radius: 5px;
+}
+
 .eduText{
-  margin: 40px;
+  margin: 20px 40px 40px 180px;
   font-style: italic;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
 }
-
-.writingAbtText {
-  margin: 70px;
-  font-size: 25px;
-  font-weight: bold;
-  font-style: italic;
+.eduTextDesc {
   position: absolute;
+  font-size: 0.9em;
+  margin: 60px 40px 40px 180px;
+}
+
+/*Writing Components*/
+#writing {
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 900px;
 }
 
 .writingText {
-  margin: 350px 0 0 550px;
+  margin: 330px 0 0 950px;
   font-weight: bold;
   font-size: 25px;
   font-style: italic;
   position: absolute;
+}
+.writingTextDesc {
+  position: absolute;
+  font-size: 0.9em;
+  margin: 370px 40px 40px 890px;
+}
+/*Writing About Components*/
+#writingabtedu {
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 545px;
+  z-index: 1;
+}
+
+.writingAbtText {
+  margin: 195px 0px 0px 515px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+}
+
+.writingAbtTextDesc {
+  position: absolute;
+  font-size: 0.9em;
+  margin: 235px 40px 40px 535px;
+}
+
+.animationWrapper{
+  margin-top: 150px;
 }
 /*End of the overlap animation*/
