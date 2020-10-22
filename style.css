@@ -23,6 +23,7 @@ section:nth-child(odd) {
 .sticky {
   background: white !important;
   display: flex;
+  overflow: hidden;
 }
 
 .percentage {
