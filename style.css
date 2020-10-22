@@ -62,10 +62,10 @@ section:nth-child(odd) {
 
 /*Education Components*/
 
-#education {
+.education {
   position: absolute;
   margin-top: -30px;
-  margin-left: 190px;
+  margin-left: 182px;
   border-radius: 5px;
 }
 
@@ -83,7 +83,7 @@ section:nth-child(odd) {
 }
 
 /*Writing Components*/
-#writing {
+.writing {
   border-radius: 5px;
   position: absolute;
   margin-top: 310px;
@@ -91,7 +91,7 @@ section:nth-child(odd) {
 }
 
 .writingText {
-  margin: 330px 0 0 950px;
+  margin: 330px 0 0 895px;
   font-weight: bold;
   font-size: 25px;
   font-style: italic;
@@ -100,19 +100,19 @@ section:nth-child(odd) {
 .writingTextDesc {
   position: absolute;
   font-size: 0.9em;
-  margin: 370px 40px 40px 890px;
+  margin: 370px 40px 40px 895px;
 }
 /*Writing About Components*/
-#writingabtedu {
+.writingabtedu {
   border-radius: 5px;
   position: absolute;
   margin-top: 170px;
-  margin-left: 545px;
+  margin-left: 539px;
   z-index: 1;
 }
 
 .writingAbtText {
-  margin: 195px 0px 0px 515px;
+  margin: 195px 0px 0px 530px;
   font-size: 25px;
   font-weight: bold;
   font-style: italic;
